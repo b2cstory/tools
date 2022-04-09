@@ -87,28 +87,28 @@
 
     <ul id="main-menu" class="main-menu">
 
-      <li class="">
+      <li>
           <a href="#常用工具" class="smooth">
             <i class="far fa-star"></i>
             <span class="title">常用工具</span>
           </a>
       </li>
       
-      <li class="">
+      <li>
         <a href="#科学上网" class="smooth">
           <i class="far fa-paper-plane"></i>
           <span class="title">科学上网</span>
         </a>
       </li>
 
-      <li class="">
+      <li>
         <a href="#收款渠道" class="smooth">
           <i class="far fa-credit-card"></i>
           <span class="title">收款渠道</span>
         </a>
       </li>
 
-    <li class="">
+    <li>
       <a href="#选品工具" class="smooth">
         <i class="far fa-tools"></i>
         <span class="title">选品工具</span>
@@ -116,7 +116,8 @@
     </li>
 
 
-      <li class="">
+      <!-- 折叠菜单 | 流量渠道 | Begin -->
+      <li>
         <a class="fas fa-angle-down" style="cursor: pointer;">
             <i class="fas fa-thumbs-up"></i>
             <span class="title">流量渠道</span>
@@ -130,15 +131,12 @@
                 <span class="title">社交媒体</span>
               </a>
             </li>
-            
-            <li class="">
-        
+
+            <li>
               <a href="#邮件营销" class="smooth">
-                
                 <i class="far fa-envelope"></i>
                 <span class="title">邮件营销</span>
               </a>
-              
           </li>
 
             <li>
@@ -147,70 +145,56 @@
                 <span class="title">SEO</span>
               </a>
             </li>
-            
-
 
           </ul>
           
       </li>
-      
-      <li class="">
-        
+      <!-- 折叠菜单 | 流量渠道 | End -->
+
+
+      <li>
         <a href="#Shopify主题" class="smooth">
-          
           <i class="far fa-window-maximize"></i>
           <span class="title">Shopify 主题</span>
         </a>
-        
-    </li>
+      </li>
 
-      <li class="">
-        
+
+      <!-- 折叠菜单 | Shopify 插件 | Begin-->
+      <li>
         <a class="fas fa-angle-down" style="cursor: pointer;">
-          
             <i class="fas fa-app-store-ios"></i>
             <span class="title">Shopify 插件</span>
-          </a>
-          
+        </a>
+
           <ul style="display: none;">
-            
-           
-            <li class="">
-        
+
+            <li>
               <a href="#评论插件" class="smooth">
-                
                 <i class="far fa-comments"></i>
                 <span class="title">评论插件</span>
               </a>
-              
-              <li>
-                <a href="#其他插件" class="smooth">
-                  <i class="fas fa-comments"></i>
-                  <span class="title">其他插件</span>
-                </a>
-              </li>
+            </li>
 
-          </li>
-
-
-            
-
+            <li>
+              <a href="#其他插件" class="smooth">
+                <i class="fas fa-comments"></i>
+                <span class="title">其他插件</span>
+              </a>
+            </li>
 
           </ul>
-          
-      </li>
-      
 
-      <li class="">
-        
+      </li>
+      <!-- 折叠菜单 | Shopify 插件 | Begin-->
+
+
+      <li>
         <a href="#Chrome插件" class="smooth">
-          
           <i class="far fa-chrome"></i>
           <span class="title">Chrome 插件</span>
         </a>
-        
-    </li>
-
+      </li>
 
 
       <li class="submit-tag">
@@ -222,10 +206,13 @@
       
       <li class="switch-mode hover-line" onclick="switchNightMode()">
         <a href="#">
+          <i class="far fa-moon">
+            <!--
           <svg t="1593061068148" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1681" width="16" height="16">
             <path d="M582.4 326.4c-140.8 0-256 115.2-256 256s115.2 256 256 256 256-115.2 256-256-115.2-256-256-256z m0 448c-70.4 0-131.2-36.8-164.8-92.8 12.8 3.2 27.2 4.8 40 4.8 121.6 0 219.2-99.2 219.2-219.2 0-17.6-1.6-35.2-6.4-52.8 60.8 32 102.4 96 102.4 169.6 1.6 104-84.8 190.4-190.4 190.4zM582.4 262.4c17.6 0 32-14.4 32-32v-128c0-17.6-14.4-32-32-32s-32 14.4-32 32v128c0 17.6 14.4 32 32 32zM262.4 582.4c0-17.6-14.4-32-32-32h-128c-17.6 0-32 14.4-32 32s14.4 32 32 32h128c17.6 0 32-14.4 32-32zM310.4 356.8c6.4 6.4 14.4 9.6 22.4 9.6 8 0 16-3.2 22.4-9.6 12.8-12.8 12.8-32 0-44.8l-91.2-91.2c-12.8-12.8-32-12.8-44.8 0-12.8 12.8-12.8 32 0 44.8l91.2 91.2zM944 220.8c-12.8-12.8-32-12.8-44.8 0l-91.2 91.2c-12.8 12.8-12.8 32 0 44.8 6.4 6.4 14.4 9.6 22.4 9.6 8 0 16-3.2 22.4-9.6l91.2-91.2c12.8-12.8 12.8-33.6 0-44.8zM310.4 808l-91.2 91.2c-12.8 12.8-12.8 32 0 44.8 6.4 6.4 14.4 9.6 22.4 9.6 8 0 16-3.2 22.4-9.6l91.2-91.2c12.8-12.8 12.8-32 0-44.8-11.2-11.2-32-11.2-44.8 0z" p-id="1682" fill="#707070"></path>
           </svg>
           <span class="tooltip-blue" style="padding-left: 10px">夜间模式</span>
+          -->
         </a>
       </li>
 
