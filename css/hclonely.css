@@ -204,6 +204,12 @@ body.night .sidebar-menu {
   border-right: #7f8080 1px solid;
 }
 
+@media screen and (max-width:768px) {
+  body.night .sidebar-menu {
+      border-right: #2c2e2f 1px solid;
+    }
+}
+
 body.night .user-info-navbar {
   background-color: #232323 !important;
 }
