@@ -1013,11 +1013,11 @@ html {
 }
 
 .sidebar-menu .main-menu a:hover {
-    color: #fff
+    color: #ffca44
 }
 
 .sidebar-menu .main-menu li.active>a {
-    color: #fff
+    color: #ffca44
 }
 
 .sidebar-menu .main-menu li.has-sub>a:before {
