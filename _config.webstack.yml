@@ -1,0 +1,123 @@
+favicon: /images/favicon.ico
+banner: /images/webstack_banner_cn.png
+
+logo:
+  expanded: /images/logo@2x.png
+  collapsed: /images/logo-collapsed@2x.svg
+  dark: /images/logo_dark@2x.png
+
+expandAll: false
+
+menu:
+  - name: 常用工具
+    icon: far fa-star
+    config: testPage
+  - name: 收款渠道
+    icon: far fa-star
+    config: hotTools
+  - name: 选品工具
+    icon: far fa-star
+    config: hotTools
+  - name: 流量渠道
+    icon: fas fa-tools
+    submenu:
+      - name: 社交媒体
+        icon: fas fa-tools
+        config: devTools
+      - name: 邮件营销
+        icon: fas fa-blog
+        config: myBlog
+      - name: SEO
+        icon: fas fa-blog
+        config: myBlog
+  - name: Shopify 主题
+    icon: far fa-star
+    config: hotTools  
+  - name: Shopify 插件
+    icon: far fa-star
+    config: hotTools
+  - name: Chrome 插件
+    icon: far fa-star
+    config: hotTools
+    
+
+testPage:
+  - name: Child Page
+    url: /child
+    img: /images/logos/myblog.png
+    description: 子页面测试
+devTools:
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+
+myBlog:
+  - name: HCLonely Blog
+    url: https://blog.hclonely.com/
+    img: /images/logos/myBlog.png
+    description: 一个懒人的博客。
+
+about:
+  url: /about/
+  icon: far fa-heart
+  name: 关于本站
+
+aboutPage:
+  website:
+    head: 关于本站
+    html: '<blockquote><p>本站是hexo主题<a href="https://github.com/HCLonely/hexo-theme-webstack">hexo-theme-webstack</a>的demo站。</p></blockquote>'
+  webmaster:
+    head: 关于站长
+    name: HCLonely
+    url: https://blog.hclonely.com/
+    img: /images/logos/myblog.png
+    description: 懒人一个
+    html: '<br /><blockquote><p>本站是<a href="https://github.com/HCLonely">HCLonely</a>基于<a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStackPage</a>项目做的一款<a href="https://hexo.io/">Hexo</a>主题。</p></blockquote>'
+
+since: 2020
+
+busuanzi:
+  enable: true
+  position: sidebar # 'footer','sidebar'
+  pv: 本站总访问量$pv
+  uv: 本站总访客数$uv
+
+custom:
+  head: |- # 以下内容插入到<head></head>标签内，可设置多行，注意每行开头至少四个空格
+    <!-- 直接添加html内容即可 -->
+    <!-- 可设置多行 -->
+  body: |- # 以下内容插入到</body>标签之前，可设置多行，注意每行开头至少四个空格
+    <!-- 直接添加html内容即可 -->
+    <!-- 可设置多行 -->
+
+js:
+  header: /js/header.js
+  footer: /js/footer.js
+  jquery: /js/jquery-1.11.1.min.js
+  bootstrap: /js/bootstrap.min.js
+  TweenMax: /js/TweenMax.min.js
+  resizeable: /js/resizeable.min.js
+  joinable: /js/joinable.js
+  xenonApi: /js/xenon-api.min.js
+  xenonToggles: /js/xenon-toggles.min.js
+  xenonCustom: /js/xenon-custom.min.js
+  lozad: /js/lozad.min.js
+  html5shiv: /js/html5shiv.min.js
+  respond: /js/respond.min.js
+  busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+
+css:
+  hclonely: /css/hclonely.css
+  fonts: //fonts.loli.net/css?family=Arimo:400,700,400italic
+  linecons: /css/fonts/linecons/css/linecons.min.css
+  fontawesome: /css/fonts/fontawesome/css/all.min.css
+  bootstrap: /css/bootstrap.min.css
+  xenonCore: /css/xenon-core.min.css
+  xenonComponents: /css/xenon-components.min.css
+  xenonSkins: /css/xenon-skins.min.css
+  nav: /css/nav.min.css
